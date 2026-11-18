@@ -52,16 +52,18 @@
 
 | Project | What it is | Tech | Stars | Watchers | Updated |
 | --- | --- | --- | --- | --- | --- |
-| [**distributor-saas**](https://github.com/pankajkumar-codes/distributor-saas) | Multi-tenant commerce and distribution SaaS for Indian sellers and distributors: FastAPI on AWS Lambda, PostgreSQL, Terraform | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/distributor-saas?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/distributor-saas?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 18 Nov 2026 |
+| [**distributor-saas**](https://github.com/pankajkumar-codes/distributor-saas) | Multi-tenant GST invoicing and filing SaaS for Indian small businesses. Create invoices, upload purchases and marketplace reports, and prepare GSTR-1 and GSTR-3B from your own data. Python modular monolith on AWS Lambda (Mumbai), React web app. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![accounting](https://img.shields.io/badge/accounting-37474F?style=flat-square) ![aws-lambda](https://img.shields.io/badge/aws--lambda-37474F?style=flat-square) ![fintech](https://img.shields.io/badge/fintech-37474F?style=flat-square) ![gst](https://img.shields.io/badge/gst-37474F?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/distributor-saas?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/distributor-saas?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 18 Nov 2026 |
 | [**spring-boot-demo**](https://github.com/pankajkumar-codes/spring-boot-demo) | Spring Boot REST service with PostgreSQL, database timeouts and per-client rate limiting | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/spring-boot-demo?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/spring-boot-demo?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 14 Nov 2026 |
 <!--PROJECTS:END-->
 
 ## Recent activity
 
 <!--ACTIVITY:START-->
-- Opened 15 pull requests in [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
+- Opened 9 pull requests in [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
+- Pushed code to [startup-swarm](https://github.com/pankajkumar-codes/startup-swarm) &nbsp;·&nbsp; <sub>17 Nov 2026</sub>
 - Pushed code to [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>17 Nov 2026</sub>
 - Pushed code to [api-test-pilot-skill](https://github.com/pankajkumar-codes/api-test-pilot-skill) &nbsp;·&nbsp; <sub>17 Nov 2026</sub>
+- Pushed code to [api-test-pilot-skill](https://github.com/pankajkumar-codes/api-test-pilot-skill) &nbsp;·&nbsp; <sub>16 Nov 2026</sub>
 <!--ACTIVITY:END-->
 
 ## Experience
