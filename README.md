@@ -32,7 +32,7 @@
 
 ## Projects
 
-<sub>Grouped from my public repositories and refreshed automatically every day. Stars and update dates stay current.</sub>
+<sub>Grouped from my public repositories and refreshed automatically every day. Stars, watchers and update dates stay current.</sub>
 
 <!--PROJECTS:START-->
 ### AI and agents
