@@ -35,11 +35,33 @@
 <sub>Grouped from my public repositories and refreshed automatically every day. Stars and update dates stay current.</sub>
 
 <!--PROJECTS:START-->
+### AI and agents
+
+| Project | What it is | Tech | Stars | Updated |
+| --- | --- | --- | --- | --- |
+| [**startup-swarm**](https://github.com/pankajkumar-codes/startup-swarm) | A 10-agent AI software startup (CEO to QA) on Amazon Bedrock, with review gates and token controls | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/startup-swarm?style=flat-square&label=%E2%98%85&color=37BCF6) | 17 Nov 2026 |
+| [**startup-swarm-aws**](https://github.com/pankajkumar-codes/startup-swarm-aws) | &mdash; | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/startup-swarm-aws?style=flat-square&label=%E2%98%85&color=37BCF6) | 17 Nov 2026 |
+
+### Testing and quality
+
+| Project | What it is | Tech | Stars | Updated |
+| --- | --- | --- | --- | --- |
+| [**api-test-pilot-skill**](https://github.com/pankajkumar-codes/api-test-pilot-skill) | Agent Skill that plans, generates and runs API tests (functional, security, load, chaos) for REST and GraphQL. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![agent-skills](https://img.shields.io/badge/agent--skills-37474F?style=flat-square) ![api-testing](https://img.shields.io/badge/api--testing-37474F?style=flat-square) ![claude](https://img.shields.io/badge/claude-37474F?style=flat-square) ![claude-code](https://img.shields.io/badge/claude--code-37474F?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/api-test-pilot-skill?style=flat-square&label=%E2%98%85&color=37BCF6) | 17 Nov 2026 |
+
+### Backend and cloud
+
+| Project | What it is | Tech | Stars | Updated |
+| --- | --- | --- | --- | --- |
+| [**distributor-saas**](https://github.com/pankajkumar-codes/distributor-saas) | &mdash; | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/distributor-saas?style=flat-square&label=%E2%98%85&color=37BCF6) | 18 Nov 2026 |
+| [**spring-boot-demo**](https://github.com/pankajkumar-codes/spring-boot-demo) | &mdash; | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/spring-boot-demo?style=flat-square&label=%E2%98%85&color=37BCF6) | 14 Nov 2026 |
 <!--PROJECTS:END-->
 
 ## Recent activity
 
 <!--ACTIVITY:START-->
+- Pushed code to [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
+- Opened 13 pull requests in [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
+- Pushed code to [api-test-pilot-skill](https://github.com/pankajkumar-codes/api-test-pilot-skill) &nbsp;·&nbsp; <sub>17 Nov 2026</sub>
 <!--ACTIVITY:END-->
 
 ## Experience
