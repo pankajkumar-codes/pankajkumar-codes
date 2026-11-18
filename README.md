@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing intro](https://readme-typing-svg.demolab.com?font=Georgia&size=26&duration=2500&pause=1000&color=37BCF6&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Pankaj+Kumar;SDET+with+10%2B+years+in+Quality+Engineering;Ex-Amazon+(India+%2B+USA)+%7C+Ex-Micro+Focus;GenAI+validation+%7C+Agentic+AI+%7C+Test+automation)](https://github.com/pankajkumar-codes)
+[![Animated intro: Pankaj Kumar, SDET with 10+ years in quality engineering, ex-Amazon and Micro Focus](https://readme-typing-svg.demolab.com?font=Georgia&size=26&duration=2500&pause=1000&color=37BCF6&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Pankaj+Kumar;SDET+with+10%2B+years+in+Quality+Engineering;Ex-Amazon+(India+%2B+USA)+%7C+Ex-Micro+Focus;GenAI+validation+%7C+Agentic+AI+%7C+Test+automation)](https://github.com/pankajkumar-codes)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-pankajkumar--codes-0A66C2?style=flat-square)](https://www.linkedin.com/in/pankajkumar-codes/)
 [![GitHub](https://img.shields.io/badge/GitHub-pankajkumar--codes-181717?style=flat-square&logo=github)](https://github.com/pankajkumar-codes)
@@ -22,7 +22,7 @@
 
 ## Highlights
 
-| | |
+| Result | How |
 | --- | --- |
 | **Zero Sev-1/Sev-2 leakage** | into production for Tier-1 services, through automated quality gates and standard bug triage |
 | **16+ hours saved per release** | by a GenAI validation suite (AWS Bedrock + Python) that checks LLM-generated content |
@@ -73,7 +73,7 @@
 | --- | --- | --- | --- |
 | Jul 2024 to Jan 2026 | QA Engineer II (L5), Quality Architecture and GenAI Validation Lead | Amazon, Seattle | GenAI validation suite on Bedrock, health-monitoring dashboard, quality governance, mobile automation, 15-person QA org |
 | Apr 2023 to Jul 2024 | QA Engineer II (L5), Automation Platform and Performance Lead | Amazon, Bellevue | Full continuous deployment, 90% coverage gates, API Gateway and Lambda performance testing, stress tests |
-| Jan 2020 to Apr 2023 | QA Engineer I to II (promoted 2022), Automation Framework and Quality Lead | Amazon, Bengaluru | Lugia automation platform, 14+ data feeds, test data tooling, mentoring the first 3 junior SDETs |
+| Jan 2020 to Apr 2023 | QA Engineer I to II (promoted 2022), Automation Framework and Quality Lead | Amazon, Bengaluru | internal automation platform, 14+ data feeds, test data tooling, mentoring the first 3 junior SDETs |
 | Aug 2017 to Jan 2020 | Systems / Software Engineer I | Micro Focus, Bengaluru | Quality dashboards, security validation for IAM (OIDC/SAML/OAuth), bug life cycle ownership |
 | Sep 2015 to Aug 2017 | Trainee Testing Engineer | Quess Corp (client: Micro Focus), Bengaluru | Hybrid automation framework in Java, C# and Selenium, Jenkins quality gates, Rest-Assured API tests |
 

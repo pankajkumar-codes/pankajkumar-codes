@@ -13,6 +13,8 @@ import json
 import os
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime
 
@@ -35,8 +37,17 @@ def get(path):
     if TOKEN:
         headers["Authorization"] = "Bearer " + TOKEN
     req = urllib.request.Request(API + path, headers=headers)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+    for attempt in range(3):  # retry transient failures (5xx, rate limit, network)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.load(resp)
+        except urllib.error.HTTPError as err:
+            if err.code not in (429, 500, 502, 503, 504) or attempt == 2:
+                raise
+        except urllib.error.URLError:
+            if attempt == 2:
+                raise
+        time.sleep(2 * (attempt + 1))
 
 
 def day(iso):
@@ -97,6 +108,11 @@ def projects():
     repos = [r for r in repos
              if not r["fork"] and not r["archived"] and not r["private"]
              and r["name"].lower() != USER.lower() and r["name"].lower() not in hide]
+    # GitHub's About text wins; config/projects.json "descriptions" fills any gaps.
+    fallback = {k.lower(): v for k, v in cfg.get("descriptions", {}).items()}
+    for r in repos:
+        if not (r.get("description") or "").strip():
+            r["description"] = fallback.get(r["name"].lower())
     by_name = {r["name"].lower(): r for r in repos}
     out, used = [], set()
     for cat in cfg.get("categories", []):
