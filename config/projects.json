@@ -1,9 +1,31 @@
 {
-  "_comment": "Edit this file to choose how repos are grouped. Repos not listed appear under 'More projects' automatically, so new repos still show up.",
+  "_comment": "Edit this file to choose how repos are grouped. Repos not listed appear under 'More projects' automatically. 'descriptions' are used only when a repo has no About text on GitHub.",
   "categories": [
-    { "title": "AI and agents", "repos": ["startup-swarm", "startup-swarm-aws"] },
-    { "title": "Testing and quality", "repos": ["api-test-pilot-skill"] },
-    { "title": "Backend and cloud", "repos": ["distributor-saas", "spring-boot-demo"] }
+    {
+      "title": "AI and agents",
+      "repos": [
+        "startup-swarm",
+        "startup-swarm-aws"
+      ]
+    },
+    {
+      "title": "Testing and quality",
+      "repos": [
+        "api-test-pilot-skill"
+      ]
+    },
+    {
+      "title": "Backend and cloud",
+      "repos": [
+        "distributor-saas",
+        "spring-boot-demo"
+      ]
+    }
   ],
-  "hide": []
+  "hide": [],
+  "descriptions": {
+    "distributor-saas": "Multi-tenant commerce and distribution SaaS for Indian sellers and distributors: FastAPI on AWS Lambda, PostgreSQL, Terraform",
+    "startup-swarm-aws": "Run startup-swarm on AWS: Bedrock models, S3 and DynamoDB state, CDK stacks, GitHub OIDC deploys",
+    "spring-boot-demo": "Spring Boot REST service with PostgreSQL, database timeouts and per-client rate limiting"
+  }
 }
