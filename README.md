@@ -40,7 +40,7 @@
 | Project | What it is | Tech | Stars | Watchers | Updated |
 | --- | --- | --- | --- | --- | --- |
 | [**startup-swarm**](https://github.com/pankajkumar-codes/startup-swarm) | A 10-agent AI software startup (CEO to QA) on Amazon Bedrock, with review gates and token controls | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/startup-swarm?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/startup-swarm?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 17 Nov 2026 |
-| [**startup-swarm-aws**](https://github.com/pankajkumar-codes/startup-swarm-aws) | &mdash; | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/startup-swarm-aws?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/startup-swarm-aws?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 17 Nov 2026 |
+| [**startup-swarm-aws**](https://github.com/pankajkumar-codes/startup-swarm-aws) | Run startup-swarm on AWS: Bedrock models, S3 and DynamoDB state, CDK stacks, GitHub OIDC deploys | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/startup-swarm-aws?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/startup-swarm-aws?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 17 Nov 2026 |
 
 ### Testing and quality
 
@@ -52,8 +52,8 @@
 
 | Project | What it is | Tech | Stars | Watchers | Updated |
 | --- | --- | --- | --- | --- | --- |
-| [**distributor-saas**](https://github.com/pankajkumar-codes/distributor-saas) | &mdash; | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/distributor-saas?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/distributor-saas?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 18 Nov 2026 |
-| [**spring-boot-demo**](https://github.com/pankajkumar-codes/spring-boot-demo) | &mdash; | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/spring-boot-demo?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/spring-boot-demo?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 14 Nov 2026 |
+| [**distributor-saas**](https://github.com/pankajkumar-codes/distributor-saas) | Multi-tenant commerce and distribution SaaS for Indian sellers and distributors: FastAPI on AWS Lambda, PostgreSQL, Terraform | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/distributor-saas?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/distributor-saas?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 18 Nov 2026 |
+| [**spring-boot-demo**](https://github.com/pankajkumar-codes/spring-boot-demo) | Spring Boot REST service with PostgreSQL, database timeouts and per-client rate limiting | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/spring-boot-demo?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/spring-boot-demo?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 14 Nov 2026 |
 <!--PROJECTS:END-->
 
 ## Recent activity
