@@ -1,0 +1,9 @@
+{
+  "_comment": "Edit this file to choose how repos are grouped. Repos not listed appear under 'More projects' automatically, so new repos still show up.",
+  "categories": [
+    { "title": "AI and agents", "repos": ["startup-swarm", "startup-swarm-aws"] },
+    { "title": "Testing and quality", "repos": ["api-test-pilot-skill"] },
+    { "title": "Backend and cloud", "repos": ["distributor-saas", "spring-boot-demo"] }
+  ],
+  "hide": []
+}

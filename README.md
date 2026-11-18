@@ -3,19 +3,22 @@
 [![Typing intro](https://readme-typing-svg.demolab.com?font=Georgia&size=26&duration=2500&pause=1000&color=37BCF6&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Pankaj+Kumar;SDET+with+10%2B+years+in+Quality+Engineering;Ex-Amazon+(India+%2B+USA)+%7C+Ex-Micro+Focus;GenAI+validation+%7C+Agentic+AI+%7C+Test+automation)](https://github.com/pankajkumar-codes)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-pankajkumar--codes-0A66C2?style=flat-square)](https://www.linkedin.com/in/pankajkumar-codes/)
+[![GitHub](https://img.shields.io/badge/GitHub-pankajkumar--codes-181717?style=flat-square&logo=github)](https://github.com/pankajkumar-codes)
 [![Followers](https://img.shields.io/github/followers/pankajkumar-codes?style=flat-square&label=Followers&color=37BCF6)](https://github.com/pankajkumar-codes?tab=followers)
 [![Profile views](https://komarev.com/ghpvc/?username=pankajkumar-codes&style=flat-square&color=37BCF6&label=Profile+views)](https://github.com/pankajkumar-codes)
-<!-- Optional email badge: see step 6 of the setup guide -->
+<!-- Optional email badge: replace this line with [![Email](https://img.shields.io/badge/Email-Contact_me-EA4335?style=flat-square)](mailto:YOUR_EMAIL) -->
 
 </div>
 
 ## About me
 
-- **Software Development Engineer in Test** with 10+ years of experience: 6 years at **Amazon** (Bengaluru, Bellevue and Seattle) and 4.5 years at **Micro Focus**.
-- I build **automation frameworks** in Java and Python for API, web and mobile (Android/iOS), and run **performance and resiliency testing** of AWS microservices.
-- At Amazon I led **GenAI/LLM validation** on AWS Bedrock, moved backend pipelines to **full continuous deployment** with automated quality gates, and was technical lead and mentor for a 15-person QA org.
-- Now building in public: **multi-agent AI systems** and **AI-assisted API testing** (see the projects below).
-- Based in **Bengaluru, India**. Open to Senior / Staff SDET and AI quality engineering roles.
+- 🧪 **Software Development Engineer in Test** with 10+ years of experience: 6 years at **Amazon** (Bengaluru, Bellevue, Seattle) and 4.5 years at **Micro Focus**.
+- 🛠️ I build **automation frameworks** in Java and Python for API, web and mobile (Android/iOS), and run **performance and resiliency testing** of AWS microservices.
+- 🤖 At Amazon I led **GenAI/LLM validation** on AWS Bedrock, moved backend pipelines to **full continuous deployment** with automated quality gates, and was technical lead and mentor for a 15-person QA org.
+- 🔭 **Building now:** multi-agent AI systems ([startup-swarm](https://github.com/pankajkumar-codes/startup-swarm)), AI-assisted API testing ([api-test-pilot-skill](https://github.com/pankajkumar-codes/api-test-pilot-skill)) and a multi-tenant SaaS on AWS ([distributor-saas](https://github.com/pankajkumar-codes/distributor-saas)).
+- 🎯 **Looking for:** Senior / Staff SDET, quality engineering lead and AI/GenAI quality roles.
+- 🎓 **Education:** B.Tech in Computer Science, Punjab Technical University (2011 to 2015).
+- 📍 **Based in:** Bengaluru, India (IST, UTC+5:30). Reach me on [LinkedIn](https://www.linkedin.com/in/pankajkumar-codes/).
 
 ## Highlights
 
@@ -26,6 +29,33 @@
 | **75% less manual testing** | after scaling an internal automation framework across the organization |
 | **5M+ queued messages** | simulated in stress tests to set CPU targets and dead-letter-queue policies |
 | **90% coverage gate** | enforced in CI with SonarQube, blocking builds that fall below it |
+
+## Projects
+
+<sub>Grouped from my public repositories and refreshed automatically every day. Stars and update dates stay current.</sub>
+
+<!--PROJECTS:START-->
+<!--PROJECTS:END-->
+
+## Recent activity
+
+<!--ACTIVITY:START-->
+<!--ACTIVITY:END-->
+
+## Experience
+
+<details>
+<summary><b>Amazon, Micro Focus and Quess: 2015 to 2026</b> (click to expand)</summary>
+
+| Period | Role | Company | What I owned |
+| --- | --- | --- | --- |
+| Jul 2024 to Jan 2026 | QA Engineer II (L5), Quality Architecture and GenAI Validation Lead | Amazon, Seattle | GenAI validation suite on Bedrock, health-monitoring dashboard, quality governance, mobile automation, 15-person QA org |
+| Apr 2023 to Jul 2024 | QA Engineer II (L5), Automation Platform and Performance Lead | Amazon, Bellevue | Full continuous deployment, 90% coverage gates, API Gateway and Lambda performance testing, stress tests |
+| Jan 2020 to Apr 2023 | QA Engineer I to II (promoted 2022), Automation Framework and Quality Lead | Amazon, Bengaluru | Lugia automation platform, 14+ data feeds, test data tooling, mentoring the first 3 junior SDETs |
+| Aug 2017 to Jan 2020 | Systems / Software Engineer I | Micro Focus, Bengaluru | Quality dashboards, security validation for IAM (OIDC/SAML/OAuth), bug life cycle ownership |
+| Sep 2015 to Aug 2017 | Trainee Testing Engineer | Quess Corp (client: Micro Focus), Bengaluru | Hybrid automation framework in Java, C# and Selenium, Jenkins quality gates, Rest-Assured API tests |
+
+</details>
 
 ## Tech stack
 
@@ -76,28 +106,6 @@
 ![MCP servers](https://img.shields.io/badge/MCP_servers-7C3AED?style=flat-square)
 ![Google ADK](https://img.shields.io/badge/Google_ADK-7C3AED?style=flat-square)
 
-## Projects
-
-<sub>This table is rebuilt automatically every day from my public repositories.</sub>
-
-<!--PROJECTS:START-->
-| Project | What it is | Tech | Stars | Last update |
-| --- | --- | --- | --- | --- |
-| [**distributor-saas**](https://github.com/pankajkumar-codes/distributor-saas) | &mdash; | `Python` | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/distributor-saas?style=flat-square&label=%E2%98%85&color=37BCF6) | 18 Nov 2026 |
-| [**api-test-pilot-skill**](https://github.com/pankajkumar-codes/api-test-pilot-skill) | Agent Skill that plans, generates and runs API tests (functional, security, load, chaos) for REST and GraphQL. | `Python` · `agent-skills` · `api-testing` · `claude` · `claude-code` | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/api-test-pilot-skill?style=flat-square&label=%E2%98%85&color=37BCF6) | 17 Nov 2026 |
-| [**startup-swarm**](https://github.com/pankajkumar-codes/startup-swarm) | A 10-agent AI software startup (CEO to QA) on Amazon Bedrock, with review gates and token controls | `Python` | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/startup-swarm?style=flat-square&label=%E2%98%85&color=37BCF6) | 17 Nov 2026 |
-| [**startup-swarm-aws**](https://github.com/pankajkumar-codes/startup-swarm-aws) | &mdash; | `Python` | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/startup-swarm-aws?style=flat-square&label=%E2%98%85&color=37BCF6) | 17 Nov 2026 |
-| [**spring-boot-demo**](https://github.com/pankajkumar-codes/spring-boot-demo) | &mdash; | `Java` | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/spring-boot-demo?style=flat-square&label=%E2%98%85&color=37BCF6) | 14 Nov 2026 |
-<!--PROJECTS:END-->
-
-## Recent activity
-
-<!--ACTIVITY:START-->
-- Pushed code to [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
-- Opened 13 pull requests in [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
-- Pushed code to [api-test-pilot-skill](https://github.com/pankajkumar-codes/api-test-pilot-skill) &nbsp;·&nbsp; <sub>17 Nov 2026</sub>
-<!--ACTIVITY:END-->
-
 ## GitHub stats
 
 <div align="center">
@@ -106,8 +114,6 @@
 
 [![Repos per language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pankajkumar-codes&theme=tokyonight)](https://github.com/pankajkumar-codes)
 [![Most commit language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=pankajkumar-codes&theme=tokyonight)](https://github.com/pankajkumar-codes)
-
-[![GitHub streak](https://streak-stats.demolab.com?user=pankajkumar-codes&theme=tokyonight&hide_border=true)](https://github.com/pankajkumar-codes)
 
 </div>
 
