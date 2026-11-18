@@ -75,15 +75,17 @@ def repo_row(r):
     tech += [badge(t, "37474F") for t in (r.get("topics") or []) if t.lower() not in have][:4]
     stars = (f"![stars](https://img.shields.io/github/stars/{r['full_name']}"
              "?style=flat-square&label=%E2%98%85&color=37BCF6)")
+    watchers = (f"![watchers](https://img.shields.io/github/watchers/{r['full_name']}"
+                "?style=flat-square&label=%F0%9F%91%81&color=37BCF6)")
     return (f"| [**{cell(r['name'])}**]({r['html_url']}) "
             f"| {cell(r['description']) or '&mdash;'} "
             f"| {' '.join(tech) or '&mdash;'} "
-            f"| {stars} | {day(r['pushed_at'])} |")
+            f"| {stars} | {watchers} | {day(r['pushed_at'])} |")
 
 
 def table(repos):
-    rows = ["| Project | What it is | Tech | Stars | Updated |",
-            "| --- | --- | --- | --- | --- |"]
+    rows = ["| Project | What it is | Tech | Stars | Watchers | Updated |",
+            "| --- | --- | --- | --- | --- | --- |"]
     rows += [repo_row(r) for r in repos]
     return "\n".join(rows)
 
