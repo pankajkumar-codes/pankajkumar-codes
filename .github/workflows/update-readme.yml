@@ -6,7 +6,7 @@ on:
   workflow_dispatch:           # lets you run it by hand from the Actions tab
   push:
     branches: [main]
-    paths: ["scripts/**", ".github/workflows/update-readme.yml", "README.md"]
+    paths: ["scripts/**", "config/**", ".github/workflows/update-readme.yml", "README.md"]
 
 permissions:
   contents: write
