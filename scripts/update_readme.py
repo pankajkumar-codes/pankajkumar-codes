@@ -20,7 +20,8 @@ USER = os.environ.get("GH_USER") or os.environ.get("GITHUB_REPOSITORY_OWNER", ""
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 README = os.environ.get("README_PATH", "README.md")
 MAX_REPOS = int(os.environ.get("MAX_REPOS", "12"))
-MAX_EVENTS = int(os.environ.get("MAX_EVENTS", "5"))
+MAX_EVENTS = int(os.environ.get("MAX_EVENTS", "6"))
+MAX_PER_REPO = int(os.environ.get("MAX_PER_REPO", "2"))
 # Repos to hide from the table, comma separated (the profile repo is always hidden).
 HIDE = {r.strip().lower() for r in os.environ.get("HIDE_REPOS", "").split(",") if r.strip()}
 API = "https://api.github.com"
@@ -75,39 +76,55 @@ def projects():
 
 
 def activity():
+    """Latest public activity, grouped so one busy repo cannot fill the list.
+
+    Same kind of event in the same repo on the same day becomes one line
+    ("Opened 4 pull requests in X"), and each repo gets at most MAX_PER_REPO lines.
+    """
     events = get(f"/users/{USER}/events/public?per_page=100")
-    lines, seen = [], set()
+    groups = {}  # (date, repo, kind) -> [count, label_fn_args]
+    order = []
     for e in events:
         repo = e["repo"]["name"]
         short = repo.split("/")[-1]
         if short.lower() == USER.lower():
             continue
         p, kind = e.get("payload") or {}, e["type"]
-        link = f"[{short}](https://github.com/{repo})"
         if kind == "PushEvent":
-            text = f"Pushed code to {link}"
+            key = "push"
         elif kind == "PullRequestEvent" and p.get("action") in ("opened", "closed"):
             pr = p.get("pull_request") or {}
-            if p["action"] == "opened":
-                verb = "Opened"
-            else:
-                verb = "Merged" if pr.get("merged") else "Closed"
-            num = p.get("number") or pr.get("number")
-            text = f"{verb} pull request #{num} in {link}"
+            key = "pr-opened" if p["action"] == "opened" else ("pr-merged" if pr.get("merged") else "pr-closed")
         elif kind == "ReleaseEvent" and p.get("action") == "published":
-            tag = cell((p.get("release") or {}).get("tag_name", ""))
-            text = f"Released `{tag}` of {link}"
+            key = "release:" + cell((p.get("release") or {}).get("tag_name", ""))
         elif kind == "CreateEvent" and p.get("ref_type") == "repository":
-            text = f"Created new repository {link}"
-        elif kind == "IssuesEvent" and p.get("action") == "opened":
-            text = f"Opened issue #{(p.get('issue') or {}).get('number')} in {link}"
+            key = "created"
         else:
             continue
-        key = (text, e["created_at"][:10])  # repeats on one day collapse to one line
-        if key in seen:
+        gkey = (e["created_at"][:10], repo, key)
+        if gkey not in groups:
+            groups[gkey] = 0
+            order.append(gkey)
+        groups[gkey] += 1
+
+    lines, per_repo = [], {}
+    for date, repo, key in sorted(order, reverse=True):
+        short = repo.split("/")[-1]
+        if per_repo.get(repo, 0) >= MAX_PER_REPO:
             continue
-        seen.add(key)
-        lines.append(f"- {text} &nbsp;·&nbsp; <sub>{day(e['created_at'])}</sub>")
+        n = groups[(date, repo, key)]
+        link = f"[{short}](https://github.com/{repo})"
+        if key == "push":
+            text = f"Pushed code to {link}"
+        elif key.startswith("pr-"):
+            verb = {"pr-opened": "Opened", "pr-merged": "Merged", "pr-closed": "Closed"}[key]
+            text = f"{verb} {n} pull request{'s' if n > 1 else ''} in {link}"
+        elif key.startswith("release:"):
+            text = f"Released `{key[8:]}` of {link}"
+        else:
+            text = f"Created new repository {link}"
+        per_repo[repo] = per_repo.get(repo, 0) + 1
+        lines.append(f"- {text} &nbsp;·&nbsp; <sub>{day(date)}</sub>")
         if len(lines) >= MAX_EVENTS:
             break
     return "\n".join(lines) or "_No recent public activity._"
