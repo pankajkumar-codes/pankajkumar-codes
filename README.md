@@ -81,11 +81,23 @@
 <sub>This table is rebuilt automatically every day from my public repositories.</sub>
 
 <!--PROJECTS:START-->
+| Project | What it is | Tech | Stars | Last update |
+| --- | --- | --- | --- | --- |
+| [**distributor-saas**](https://github.com/pankajkumar-codes/distributor-saas) | &mdash; | `Python` | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/distributor-saas?style=flat-square&label=%E2%98%85&color=37BCF6) | 18 Nov 2026 |
+| [**api-test-pilot-skill**](https://github.com/pankajkumar-codes/api-test-pilot-skill) | Agent Skill that plans, generates and runs API tests (functional, security, load, chaos) for REST and GraphQL. | `Python` · `agent-skills` · `api-testing` · `claude` · `claude-code` | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/api-test-pilot-skill?style=flat-square&label=%E2%98%85&color=37BCF6) | 17 Nov 2026 |
+| [**startup-swarm**](https://github.com/pankajkumar-codes/startup-swarm) | A 10-agent AI software startup (CEO to QA) on Amazon Bedrock, with review gates and token controls | `Python` | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/startup-swarm?style=flat-square&label=%E2%98%85&color=37BCF6) | 17 Nov 2026 |
+| [**startup-swarm-aws**](https://github.com/pankajkumar-codes/startup-swarm-aws) | &mdash; | `Python` | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/startup-swarm-aws?style=flat-square&label=%E2%98%85&color=37BCF6) | 17 Nov 2026 |
+| [**spring-boot-demo**](https://github.com/pankajkumar-codes/spring-boot-demo) | &mdash; | `Java` | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/spring-boot-demo?style=flat-square&label=%E2%98%85&color=37BCF6) | 14 Nov 2026 |
 <!--PROJECTS:END-->
 
 ## Recent activity
 
 <!--ACTIVITY:START-->
+- Opened pull request #219 in [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
+- Pushed code to [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>17 Nov 2026</sub>
+- Opened pull request #218 in [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
+- Opened pull request #217 in [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
+- Opened pull request #216 in [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
 <!--ACTIVITY:END-->
 
 ## GitHub stats
