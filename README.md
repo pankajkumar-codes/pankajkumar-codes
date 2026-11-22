@@ -61,8 +61,6 @@
 <!--ACTIVITY:START-->
 - Pushed code to [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>19 Nov 2026</sub>
 - Pushed code to [api-test-pilot-skill](https://github.com/pankajkumar-codes/api-test-pilot-skill) &nbsp;·&nbsp; <sub>19 Nov 2026</sub>
-- Pushed code to [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
-- Pushed code to [api-test-pilot-skill](https://github.com/pankajkumar-codes/api-test-pilot-skill) &nbsp;·&nbsp; <sub>18 Nov 2026</sub>
 <!--ACTIVITY:END-->
 
 ## Experience
