@@ -46,7 +46,7 @@
 
 | Project | What it is | Tech | Stars | Watchers | Updated |
 | --- | --- | --- | --- | --- | --- |
-| [**api-test-pilot-skill**](https://github.com/pankajkumar-codes/api-test-pilot-skill) | Agent Skill that plans, generates and runs API tests (functional, security, load, chaos) for REST and GraphQL. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![agent-skills](https://img.shields.io/badge/agent--skills-37474F?style=flat-square) ![api-testing](https://img.shields.io/badge/api--testing-37474F?style=flat-square) ![claude](https://img.shields.io/badge/claude-37474F?style=flat-square) ![claude-code](https://img.shields.io/badge/claude--code-37474F?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/api-test-pilot-skill?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/api-test-pilot-skill?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 23 Nov 2026 |
+| [**api-test-pilot-skill**](https://github.com/pankajkumar-codes/api-test-pilot-skill) | Agent Skill that plans, generates and runs API tests (functional, security, load, chaos) for REST and GraphQL. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![agent-skills](https://img.shields.io/badge/agent--skills-37474F?style=flat-square) ![api-testing](https://img.shields.io/badge/api--testing-37474F?style=flat-square) ![claude](https://img.shields.io/badge/claude-37474F?style=flat-square) ![claude-code](https://img.shields.io/badge/claude--code-37474F?style=flat-square) | ![stars](https://img.shields.io/github/stars/pankajkumar-codes/api-test-pilot-skill?style=flat-square&label=%E2%98%85&color=37BCF6) | ![watchers](https://img.shields.io/github/watchers/pankajkumar-codes/api-test-pilot-skill?style=flat-square&label=%F0%9F%91%81&color=37BCF6) | 24 Nov 2026 |
 
 ### Backend and cloud
 
@@ -59,8 +59,10 @@
 ## Recent activity
 
 <!--ACTIVITY:START-->
+- Pushed code to [api-test-pilot-skill](https://github.com/pankajkumar-codes/api-test-pilot-skill) &nbsp;·&nbsp; <sub>24 Nov 2026</sub>
+- Opened 2 pull requests in [api-test-pilot-skill](https://github.com/pankajkumar-codes/api-test-pilot-skill) &nbsp;·&nbsp; <sub>24 Nov 2026</sub>
 - Pushed code to [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>23 Nov 2026</sub>
-- Opened 6 pull requests in [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>23 Nov 2026</sub>
+- Opened 5 pull requests in [distributor-saas](https://github.com/pankajkumar-codes/distributor-saas) &nbsp;·&nbsp; <sub>23 Nov 2026</sub>
 <!--ACTIVITY:END-->
 
 ## Experience
